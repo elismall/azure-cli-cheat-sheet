@@ -1,7 +1,7 @@
 
 # Azure CLI Cheat Sheet
 
-This is a concise reference for Azure CLI shortcut flags and commonly used commands.
+This is a reference sheet for Azure CLI shortcut flags and commonly used commands.
 
 ---
 
@@ -28,7 +28,7 @@ This is a concise reference for Azure CLI shortcut flags and commonly used comma
 -NetworkInterface: az network nic create -g MyRG -n MyNIC --vnet-name MyVNet --subnet MySubnet
 -VM: az vm create -g MyRG -n MyVM --image Ubuntu2204 --nics MyNIC --admin-username azureuser --generate-ssh-keys
 -StorageAccount: az storage account create -n mystorageacct -g MyRG -l eastus --sku Standard_LRS --kind StorageV2
--AddUserRole: az role assignment create --assignee user@example.com --role Contributor --scope /subscriptions/xxxx/resourceGroups/MyRG
+-AddUserRole:az role assignment create --assignee user@example.com --role Contributor --scope /subscriptions/xxxx/resourceGroups/MyRG
 -DeleteResource: az resource delete --ids /subscriptions/.../resourceGroups/MyRG/providers/Microsoft.Compute/virtualMachines/MyVM
 
 ```
